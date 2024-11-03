@@ -52,10 +52,10 @@ A continuación se muestran algunas capturas de pantalla de la aplicación en fu
 ![Ventana Principal](Example/img/Ventana-Principal.png)
 
 ### Panel de Listas de Reproducción
-![Panel de Listas](example/img/Panel-Reproduccion.png)
+![Panel de Listas](Example/img/Panel-Reproduccion.png)
 
 ### Reproducción de Música y Ecualizador
-![Reproducción y Ecualizador](example/img/Panel-Canciones.png)
+![Reproducción y Ecualizador](Example/img/Panel-Canciones.png)
 
 
 
@@ -68,10 +68,5 @@ A continuación se muestran algunas capturas de pantalla de la aplicación en fu
 
 Para ejecutar la aplicación, puedes ejecutar la clase `Reproductor` en el paquete `reproductor`, que es la clase principal de la aplicación. Esta clase inicializa la vista principal y abre la interfaz del reproductor de música.
 
-## Contribuciones
-
-Si deseas contribuir a este proyecto, puedes hacerlo mediante pull requests o proponiendo nuevas ideas en la sección de issues.
 
 ---
-
-Este README proporciona una visión general del proyecto, sus funcionalidades y su estructura basada en el patrón MVC. Asegúrate de tener todas las dependencias y configuraciones adecuadas para ejecutar correctamente el reproductor de música.
