@@ -61,7 +61,7 @@ A continuación se muestran algunas capturas de pantalla de la aplicación en fu
 
 ## Configuración del Proyecto
 
-1. **JavaFX**: La aplicación está desarrollada en JavaFX. Asegúrate de configurar correctamente JavaFX en tu entorno de desarrollo para ejecutar la aplicación.
+1. **JavaFX**: La aplicación está desarrollada en JavaFX. 
 2. **Archivos de Música**: Las canciones deben estar en la ruta especificada en el archivo de texto de carga, y deben incluir tanto el nombre como la ruta del archivo.
 
 ## Ejecución de la Aplicación
