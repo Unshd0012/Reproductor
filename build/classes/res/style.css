@@ -1,0 +1,66 @@
+
+
+.label-title{
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-font-family: Arial;
+}
+.button {
+    -fx-background-color: #ffffff; /* Color de fondo blanco */
+    -fx-background-radius: 5px; /* Bordes redondeados */
+    -fx-padding: 10px 20px; /* Espaciado interno */
+    -fx-text-fill: #000000; /* Color del texto negro */
+    -fx-font-size: 14px; /* Tamaño de la fuente */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0, 0, 2); /* Sombra para efecto elevado */
+    -fx-border-color: transparent; /* Sin borde */
+    -fx-cursor: hand; /* Cambia el cursor al pasar por encima */
+}
+
+.button:hover {
+    -fx-background-color: #e0e0e0; /* Color de fondo al pasar el mouse */
+}
+
+.button:pressed {
+    -fx-background-color: #cccccc; /* Color de fondo al presionar */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 2, 0, 0, 1); /* Sombra reducida al presionar */
+}
+
+.list-view .list-cell:odd {
+    -fx-background-color: #f9f9f9; /* Color de fondo para filas impares */
+}
+
+.list-view .list-cell:even {
+    -fx-background-color: #cddde4; /* Color de fondo para filas pares */
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #c3d1db; /* Color de fondo al pasar el mouse */
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0, 0, 2);
+}
+
+.text-field:focused {
+    -fx-background-color: #f0f0f0; /* Color de fondo al enfocarse */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 5, 0, 0, 2);
+}
+
+.slider .track {
+    -fx-background-color: #cccccc; /* Color de la pista */
+    -fx-background-radius: 5px;
+}
+
+.slider .thumb {
+    -fx-background-color: #007acc; /* Color del pulgar */
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0, 0, 2);
+}
+
+.slider .thumb:hover {
+    -fx-background-color: #005f99; /* Color del pulgar al pasar el mouse */
+}
